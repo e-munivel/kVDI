@@ -204,15 +204,3 @@ User authentication is provided by "providers". There are currently three implem
  * `oidc-auth` : An OpenID or OAuth provider is used for authenticating users. If using an Oauth provider, it must support the `openid` scope. When a user is authenticated, a configurable `groups` claim is requested from the provider that can be mapped to VDIRoles similarly to `ldap-auth`. If the provider does not support a `groups` claim, you can configure `kVDI` to allow all authenticated users.
 
  All three authentication methods also support MFA.
-
-# Donating
-
-kVDI started as just a fun project, but as more people have started to use it, I've really wanted to find more time to continue making improvements.
-Unfortunately, it just doesn't pay the bills so I can only really settle into it when I have nothing else going on.
-I've set up a Patreon and an ETH wallet if people would like to support further development:
-
- - Patreon: [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dkvdi%26type%3Dpatrons&style=flat)](https://www.patreon.com/kvdi?fan_landing=true)
-
- - ETH: `0xdFC61298BdFe4a6F7fb1eFae5Da27d905c1bD172`
-
-Feel free to email me at the address on my Github profile if you have any other questions.
